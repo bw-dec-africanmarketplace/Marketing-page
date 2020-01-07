@@ -265,7 +265,7 @@ footer {
 }
 @media (max-width:500px) {
   .home .what-we-do {
-    width: 35rem;
+    width: 40rem;
     height: 30rem;
   }
 }
@@ -276,6 +276,14 @@ footer {
 .home .what-we-do p {
   color: white;
   padding-top: 2rem;
+}
+.home .what-we-do .p {
+  width: 90rem;
+}
+@media (max-width:500px) {
+  .home .what-we-do .p {
+    width: 30rem;
+  }
 }
 .home .what-we-do button {
   background-color: black;
