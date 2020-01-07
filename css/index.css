@@ -265,7 +265,7 @@ footer {
 }
 @media (max-width:500px) {
   .home .what-we-do {
-    width: 40rem;
+    width: 35rem;
     height: 30rem;
   }
 }
@@ -304,6 +304,16 @@ footer {
   justify-content: center;
   align-items: center;
 }
+@media (max-width:500px) {
+  .home .middle {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 35rem;
+    height: 80rem;
+  }
+}
 .home .middle .middle-content {
   display: flex;
   flex-flow: column nowrap;
@@ -311,6 +321,11 @@ footer {
   align-items: center;
   padding: 2rem;
   margin-top: 9rem;
+}
+@media (max-width:500px) {
+  .home .middle .middle-content {
+    margin-left: 4rem;
+  }
 }
 .home .middle .middle-content p {
   margin-top: 2rem;
@@ -322,10 +337,4 @@ footer {
   height: 5rem;
   font-size: 1.5rem;
   color: white;
-}
-@media (max-width:500px) {
-  .home .middle {
-    width: 40rem;
-    height: 40rem;
-  }
 }
