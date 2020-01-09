@@ -305,7 +305,7 @@ footer {
 .home .middle {
   width: 100rem;
   height: 20rem ;
-  margin-bottom: 20rem;
+  margin-bottom: 50rem;
   background: white;
   display: flex;
   flex-flow: row nowrap;
@@ -315,11 +315,12 @@ footer {
 @media (max-width:500px) {
   .home .middle {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    width: 35rem;
-    height: 80rem;
+    margin-bottom: 15rem;
+    width: 40rem;
+    height: 100rem;
   }
 }
 .home .middle .middle-content {
@@ -328,15 +329,20 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  margin-top: 9rem;
+  margin-top: 35rem;
 }
 @media (max-width:500px) {
   .home .middle .middle-content {
-    margin-left: 4rem;
+    margin: 0rem;
+    margin-top: 10rem;
   }
+}
+.home .middle .middle-content h2 {
+  margin-bottom: 2rem;
 }
 .home .middle .middle-content p {
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .home .middle .middle-content button {
   background-color: black;
@@ -345,4 +351,21 @@ footer {
   height: 5rem;
   font-size: 1.5rem;
   color: white;
+}
+.home .middle .middle-content .news-img {
+  width: 30rem;
+  margin-bottom: 2rem;
+}
+.home .middle .middle-content .baskit-img {
+  height: 20rem;
+  width: 30rem;
+  margin-bottom: 2rem;
+}
+.home footer {
+  margin-top: 20rem;
+}
+@media (max-width:500px) {
+  .home footer {
+    margin-top: 2rem;
+  }
 }

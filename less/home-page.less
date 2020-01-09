@@ -83,31 +83,40 @@
        
        width: 100rem;
        height: 20rem ; 
-       margin-bottom: 20rem;
+       margin-bottom: 50rem;
        background: white;
        .flex(row nowrap,center,center);
        @media @phone{
-        .flex(column wrap,center,center);
+        .flex(column nowrap,center,center);
+        margin-bottom: 15rem;
+        
         // border: 2px solid red;
-        width: 35rem;
-        height: 80rem;
+        width: 40rem;
+        // height: 150rem;
+        height: 100rem;
+       
+
        }
 
        
        .middle-content{
           .flex(column nowrap,center,center); 
           padding: 2rem;
-          margin-top: 9rem;
+          margin-top: 35rem;
           @media @phone{
-           
-            margin-left: 4rem;
+            // margin-left: 4rem;
+            margin: 0rem;
+            margin-top: 10rem;
+       
            }
-          
-
-          
+           h2{
+               margin-bottom: 2rem;
+           }
+ 
 
           p{
               margin-top: 2rem;
+              margin-bottom: 2rem;
           }
           button{
               background-color: black;
@@ -117,10 +126,33 @@
               font-size: 1.5rem;
               color: white;
           }
-       }
+
+          .news-img{
+              width: 30rem;
+              margin-bottom: 2rem;
+              
+
+          }
+          .baskit-img{
+              height: 20rem;
+              width: 30rem;
+              margin-bottom: 2rem;
+             
+          }
+
+          
+       }//middle content
        
 
-    }
+    }// middle section
+    
+    footer{
 
+        margin-top: 20rem;
+        @media @phone{
+           margin-top: 2rem;
+      }
+    }
    
+
 }
