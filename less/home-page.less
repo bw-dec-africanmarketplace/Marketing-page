@@ -8,23 +8,43 @@
     width: 95%;
   }
   .contents{
-     
+    
+    display: flex;
+    flex-direction: column;
+
+   @media (min-width: 505px){
     .display-flex();
+    flex-direction: row;
+  }
    
     margin: 2% 2.5% 0% 2.5%;
     .box{
+       
+      box-sizing: border-box;
+      width: 85%;
+
+     @media (min-width: 505px){
       box-sizing: border-box;
       width: 31%;
       margin-left: 2%;
-
+     }
       .about,.services,.news{
+      
+      display: block;
+      width: 40%;
+      margin-top: 4%;
+      margin-right: auto;
+      margin-left: auto;
+
+        @media (min-width: 505px){
         width: 70%;
-  
+        margin-left: 0%;
+      }
       }
   
     }
     h2:hover{
-      color: white;
+      color: brown;
     }
 
     
