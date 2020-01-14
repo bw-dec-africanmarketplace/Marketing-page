@@ -361,6 +361,44 @@ footer {
   width: 30rem;
   margin-bottom: 2rem;
 }
+.home .web-react {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+.home .web-react .git-hub-img {
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+@media (max-width:500px) {
+  .home .web-react {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.home .web-react .web-react-content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 100rem;
+  margin-top: 6rem;
+}
+@media (max-width:500px) {
+  .home .web-react .web-react-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+  }
+}
+.home .web-react h2 {
+  margin-bottom: 2rem;
+}
 .home footer {
   margin-top: 20rem;
 }
